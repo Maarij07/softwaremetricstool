@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import { AuthProvider } from './context/context';
 import Dashboard from './components/Dashboard';
+import Cocomo from './components/Cocomo';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} /> 
           <Route path="/dashboard" element={<Dashboard/>}/> 
+          <Route path="/cocomo" element={<Cocomo/>}/> 
         </Routes>
     </Router>
   );

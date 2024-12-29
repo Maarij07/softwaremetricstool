@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
   const languages = [
@@ -21,18 +22,18 @@ function LandingPage() {
           </p>
           <p className='text-xs font-light pt-2'>~ Maarij Bukhari (221803)</p>
           <div className="mt-8">
-            <a
-              href="/dashboard"
+            <Link
+              to="/dashboard"
               className="bg-white text-pink-600 px-8 py-4 rounded-full font-semibold shadow-lg hover:bg-gray-200 transition-all"
             >
               Get Started
-            </a>
-            <a
-              href="/about"
+            </Link>
+            <Link
+              to="/cocomo"
               className="ml-4 border-2 border-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-pink-600 transition-all"
             >
-              Learn More
-            </a>
+              Cocomo Simulator 1.0
+            </Link>
           </div>
         </section>
 
