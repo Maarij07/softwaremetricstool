@@ -1,0 +1,1 @@
+export const AI_PROMPT="{code} calculate me it's cyclomatic complexxity , cognitive complexity , defectDensity,line of codes, function points and mttr and cocomo ... return all this in json format while main key name is metrics , and inner keys have name of cyclomaticComplexity, cognitiveComplexity, defectDensity, mttr,lineOfCode,functionPoint and cocomo"
